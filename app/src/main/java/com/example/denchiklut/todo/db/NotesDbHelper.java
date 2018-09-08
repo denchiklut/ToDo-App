@@ -4,9 +4,9 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class NootesDbHelper extends SQLiteOpenHelper {
+public class NotesDbHelper extends SQLiteOpenHelper {
 
-    public NootesDbHelper(Context context) {
+    public NotesDbHelper(Context context) {
         super(context, NotesContract.DB_NAME, null, NotesContract.DB_VERSION);
     }
 
